@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
 import { ItemComponent } from "./item/item.component";
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
