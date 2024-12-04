@@ -37,7 +37,7 @@
   </h2>
   <ul>
     <li *ngFor="let item of items">
-      <app-item (remove)="remove(item)" [item]="item"></app-item>
+      <app-item (remove)="remove(item)" (save)="saveAllItemsToCookie()" [item]="item"></app-item>
     </li>
   </ul>
 

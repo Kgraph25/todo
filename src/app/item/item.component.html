@@ -2,7 +2,7 @@
   <input
   [id]="item.description"
   type="checkbox"
-  (change)="item.done = !item.done"
+  (change)="toggleDone()"
   [checked]="item.done" />
   <label [for]="item.description">{{item.description}}</label>
   <div class="btn.wrapper" *ngIf="!editable">
